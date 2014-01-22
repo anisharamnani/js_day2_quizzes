@@ -1,7 +1,7 @@
 describe( "Dice#roll", function() {
   dice = new Dice();
 
-  it("should return an number", function() {
+  it("should return a number", function() {
     expect(typeof dice.roll()).toBe("number")
   });      
 
